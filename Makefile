@@ -12,4 +12,4 @@ test:
 
 # Deploy the contract using values from .env, no verification
 deploy:
-	@forge script script/DeployFyreToken.s.sol --rpc-url $(RPC_URL) --broadcast --private-key $(PRIVATE_KEY) -vvvv
+	@forge script script/DeployManaToken.s.sol --rpc-url $(RPC_URL) --broadcast --private-key $(PRIVATE_KEY) -vvvv
